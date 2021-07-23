@@ -68,7 +68,7 @@ export class TasksService {
     const task: Task = {
       id: uuid(),
       title,
-      description,
+      description: `${description} and this is added.`,
       status: TaskStatus.OPEN,
     };
 
